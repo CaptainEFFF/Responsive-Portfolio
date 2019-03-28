@@ -1,2 +1,2 @@
 # Responsive-Portfolio
-A mobile responsive version of my Basic Portfolio
+A Portfolio for the projects I'm working on or have completed now with a mobile responsive design.
