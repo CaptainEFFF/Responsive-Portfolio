@@ -146,7 +146,7 @@ margin: 5px 0;
     /* Commented out the width that makes the images 2 wide instead of 3 */
     /* width: 34%; */
     height: 250px;
-    margin: 10px 10px;
+    margin: 10px 1vh;
 }
 
 .port_image{
@@ -177,21 +177,121 @@ margin: 5px 0;
 
 /* Media Queries for Responsive Layout */
 
-@media screen (max-width: 980px){ 
+@media screen and (max-width: 980px){ 
     
 
 }
 
-@media screen (max-width: 768px){
+@media screen and (max-width: 768px){
+
+    #header{
+        background-color: white;
+        position:relative;
+        top:0;
+        height: 70px;
+        border:0px;
+    
+    }
+
+    #name{
+        float:right;
+        width:40%;
+        margin:0 0 10px 0;
+        height:40px;
+        padding: 15px 0;
+    }
+
+    .links{
+        float:right;
+        width: 20%;
+        height:40px;
+        padding:15px 0 ;
+        margin-bottom: 10px;
+       
+    }
+    
+    #container{
+        position:relative;
+        width:100%;
+        height: 70px;
+        margin: 0;
+    }
+    #body{
+    width: 80%;
+    margin: 20px 10%;
+    min-height: 100%;
+    padding:10%px;
+    padding-bottom: 50px;
+
+    }
+
+    #profile{
+        text-align: center;
+        width: 90%;
+        height: 100%;
+        margin: 5%;
+    }
+
    .port_link{
-       width:34%;
+ 
+        width: 34%;
+       
    } 
 
 }
 
-@media screen (max-width: 640px){
+@media screen and (max-width: 640px){
+
+    #header{
+        background-color: white;
+        position:relative;
+        top:0;
+        height: 70px;
+        border:0px;
+    
+    }
+
+    #name{
+        float:right;
+        margin:0 0 10px 0;
+        height:40px;
+        padding: 15px 0;
+    }
+
+    .links{
+        float:right;
+        width: 20%;
+        height:40px;
+        padding:15px 0 ;
+        margin-bottom: 10px;
+       
+    }
+
+    #body{
+        width: 80%;
+        margin: 20px 10%;
+        min-height: 100%;
+        padding:10%px;
+        padding-bottom: 50px;
+    }
+
+    #profile{
+        text-align: center;
+        width: 90%;
+        height: 100%;
+        margin: 5%;
+    }
+
+    #container{
+        position:static;
+        width:100%;
+        height: 70px;
+        margin: 0;
+    }
+
     .port_link{
         width:51%;
+
     } 
 
 }
